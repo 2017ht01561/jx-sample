@@ -39,7 +39,7 @@ variable "node_machine_type" {
 variable "min_node_count" {
   description = "Minimum number of cluster nodes"
   type        = number
-  default     = 3
+  default     = 2
 }
 
 variable "max_node_count" {
